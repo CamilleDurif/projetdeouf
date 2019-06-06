@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "<<set $money to 0>>\nCeci est le début d'une grande histoire.\nEs-tu prêt pour cette aventure ?\n-> Bof...\n    ... ce n'est pas très encourageant.\n-> A donf' !\n    Voilà qui fait plaisir à entendre.\n-> Quelle aventure ?\n    La tienne pardi\n[[Aller dans la forêt|foret]]\n[[Aller chercher du pain|pain]]",
+		"position": {
+			"x": 297,
+			"y": 190
+		},
+		"colorID": 0
+	},
+	{
+		"title": "pain",
+		"tags": "",
+		"body": "Bonjour ! Que désirez-vous aujourd'hui ?\n-> Croissant<<if $money gt 3>>\n    Ca fera 3e \n-> Pain au chocolat\n    Et c'est parti",
+		"position": {
+			"x": 752,
+			"y": 294
+		},
+		"colorID": 0
+	}
+]
